@@ -1,0 +1,465 @@
+@font-face {
+    font-family: Open Sans;
+    src: url(font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+*{
+    padding: 0 ;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+   background: rgba(2, 10, 24, 1);
+}
+header{
+  background:  rgba(255, 255, 255, 0.03) ;
+}
+ul{
+    color: white;
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    color: white;
+}
+h6{
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+button{
+    background: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    margin-right: 50px;
+}
+.conteiner{
+    margin: 0 auto ;
+    width: 1210px;
+}
+
+/*---header---*/
+
+header ul{
+    display: flex;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu{
+    gap: 40px;   
+}
+.color{
+    color: aqua;
+}
+.zagolovok{
+
+    width: 50%;
+    text-align: left;
+    margin-left: 55px;
+    font-size: 31px;
+    color: white;
+}
+header .conteiner {
+    padding: 35px 0 203px 0;
+}
+header .h11{
+    margin-top: 110px;
+    background: url(img/9\ 1.png) no-repeat right;
+    background-size: 500px 500px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+.beten {
+    display: flex;
+    flex-wrap: wrap;
+}
+.button1{
+    background-color: rgba(0, 204, 204, 1);
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 55px;
+    padding-left: 55px;
+
+}
+.button2{
+    background-image: url(img/Polygon\ 1.png);
+    background-size: 15px;
+    background-position: 30px ;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 204, 204, 1);
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 55px;
+    margin-left: 55px;
+}
+.inline {
+ display: flex;
+flex-wrap: wrap;
+ gap: 50px;
+ margin-left: 50px;
+}
+.logo{
+    width: 200px;
+    height: 47px;
+    margin-left: 55px;
+}
+/* hamburger */
+.hamburger {
+    cursor:pointer;
+    display: none;
+}
+.line{
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+/* поворот линий */
+.active .line:nth-childe(1){
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.active .line:nth-child(2){
+    opacity: 0;
+}
+.active .line:nth-child(3){
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+@media screen and (max-width: 725px){
+    .hamburger{
+        cursor: pointer;
+        display: block;
+        margin: auto 10px;
+    }
+    header ul{
+        display: none;
+    }
+    header {
+        width: 100%;
+    }
+    header ul.show-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        flex-direction: column;
+        margin: 20px 0;
+        gap: 20px;
+    }
+}
+/*---header-end---*/
+
+
+/*---main---*/
+/*---section1---*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.zagolovok1 h6{
+    width: 430px;
+}
+.zagolovok1{
+    margin-left: 750px;
+    margin-top: 160px;
+    width: 550px;
+    font-size: 25px;
+}
+main .h12{    
+    background: url(img/about\ 4.png) no-repeat ;
+    background-size: 670px 650px;
+    width: 915px;
+    height: 669px;
+    margin-bottom: 100px;
+
+}
+/*---section1-end---*/
+
+/*---section2---*/
+
+.flex1{
+ display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-left: -215PX;
+}
+.box img{
+    height: 100px;
+}
+.box{
+    background: rgb(44, 54, 71,1);
+    border-radius: 10px;
+    padding: 30px;
+}
+.text{
+    width: 250px;
+}
+.text h2{
+    font-size: 20px;
+    width: 240px;
+}
+.text p{
+    font-size: 15px;
+   width: 240px; 
+   margin: 5px;
+}
+.point-main{
+    display: flex;
+    width: 50px;
+    margin: 0 auto;
+}
+.point{
+    background: url(img/Ellipse\ 49.png) no-repeat;
+    width: 125px;
+    height: 125px;
+    margin-top:10px; 
+}
+.point2{
+background: url(img/Ellipse\ 47.png) no-repeat;
+width: 125px;
+height: 125px;
+margin-top:10px; 
+}
+/*---section2-end---*/
+
+/*---section3---*/
+.h13{
+    background: url(img/about3\ 1.png) no-repeat right;
+    background-size: 550px 500px;
+    width: 950px;
+    height: 600px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+.zagolovok2 h2{
+    width: 60%;
+    text-align: left;
+    margin-left: 55px;
+    font-size: 40px;
+}
+.zagolovok2 p{
+    width: 35%;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 55px;
+}
+/*---section3-end---*/
+/*---main-end---*/
+
+/*---footer---*/
+footer{
+    background-color: rgba(255, 255, 255, 0.03);
+    font-size: 14px;
+ 
+    
+}
+footer .conteiner{
+    display: flex;
+    gap: 30px;
+
+}
+.menu1{
+    display: flex;
+}
+.menu1 li{
+width: 200px;
+padding: 10px;
+}
+.silka{
+    display: flex;
+
+}
+.silka img{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    align-items: center;
+}
+.eng{
+    display: flex;
+    justify-content: baseline;
+    width: 30px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 55px;
+}
+.text13{
+    font-size: 17px;
+    width: 310px;
+}
+.imge{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+  
+}
+.point-main {
+    display: none;
+}
+/*---footer-end---*/
+@media screen and (min-width:375px) and (max-width:725px){
+    .conteiner{
+        width: 100%;
+    }
+    /*---header---*/
+    .logo{
+        width: 100px;
+    }
+    .logo img{
+        margin-left: -60px;
+        width: 150px;
+        margin-bottom: 200px;
+        height: 30px;
+    }
+    .menu{
+       width: 100px;
+       height: 5px;
+       font-size: 10px;
+       gap: 10px;
+    }
+    footer .conteiner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header .h11{
+        width: 100%;
+        height: 100%;
+        background-position: 160px -5px;
+        background-size: 200px 250px;
+    }
+    .zagolovok{
+        width: 50%;
+        margin-left: 1px;
+        font-size: 17px;
+    }
+    .button{
+        margin-right: 10px;
+        width: 70px;
+        height: 45px;
+
+    }
+    .beten{
+        font-size: 10px;
+        padding: 15px;
+        background-size: 10px;
+        background-position: 10px;
+    }
+    .button1{
+        padding-left: 15px;
+        width: auto;
+        margin-left: -15px;
+    }
+    .button2{
+        background-size: 14px;
+        background-position: 10px;
+        padding-left: 30px;
+        width: auto;
+        margin-left: 10px;
+    }
+    .inline img{
+    width: 100px;
+    margin-left: 0px;
+    }
+    .menu1{
+        font-size: 10px;
+    }
+    .menu1 li {
+        width: 120px;
+    }
+    .flex1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        margin-left: 20px;
+    }
+    main .h12 {
+        width: 100%;
+        height: 100%;
+        background-size: 270px 250px;
+
+    }
+    .h13{
+        width: 100%;
+        height: 100%;
+        background-position: 10px 10px ;
+        background-size: 300px 250px;
+        padding-bottom: 110px;
+    }
+    .zagolovok1 {
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 250px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .zagolovok2{
+        padding-top: 250px;
+    }
+    .zagolovok2 h2{
+        margin-left: 10px;
+        width: 80%;
+        font-size: 30px;
+    }   
+    .zagolovok2 p{
+        margin-left: 10px;
+       width: 80%;
+    }   
+    .point-main {
+        display: flex;
+    }
+}
+
+/*---slider---*/
+
+.slider{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slider img{
+    object-fit: cover;
+}
+.sliders{
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.point, .point2{
+    top: 50%;
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+}
+.point{
+left: 10px;
+}
+.point2{
+    right: 10px;
+}
+/*---slider-end---*/
